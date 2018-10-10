@@ -17,7 +17,7 @@ You must demonstrate the following:
 
 - basic understanding of Order Book
 - basic understanding of WebSocket
-- understanding of buy/sell walls: https://smartoptions.io/read-buy-sell-walls-crypto/
+- understanding of buy/sell walls: https://www.yurikoval.com/blog/2018/10/understanding-buy-and-sell-walls/
 
 ### Sample Unit Breakdown:
 
