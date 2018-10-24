@@ -15,9 +15,9 @@ You must demonstrate the following:
 
 ### Pre-requisites:
 
-- basic understanding of Order Book
+- basic understanding of [Order Book](https://www.investopedia.com/terms/o/order-book.asp) and its [Depth Chart](https://hackernoon.com/depth-chart-and-its-significance-in-trading-bdbfbbd23d33)
 - basic understanding of WebSocket
-- understanding of buy/sell walls: https://www.yurikoval.com/blog/2018/10/understanding-buy-and-sell-walls/
+- understanding of [buy/sell walls](https://www.yurikoval.com/blog/2018/10/understanding-buy-and-sell-walls/)
 
 ### Sample Unit Breakdown:
 
