@@ -10,7 +10,8 @@ defmodule Radar.Application do
     children = [
       # Starts a worker by calling: Radar.Worker.start_link(arg)
       # {Radar.Worker, arg},
-      {Feed, []}
+      # {Feed, [symbol: "BTCUSDT", debug: [:trace]]}
+      {Feed, [symbol: "BTCUSDT"]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
