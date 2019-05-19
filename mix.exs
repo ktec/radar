@@ -14,7 +14,7 @@ defmodule Radar.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
+      extra_applications: [:logger, :inets, :ssl],
       mod: {Radar.Application, []}
     ]
   end
@@ -23,6 +23,7 @@ defmodule Radar.MixProject do
   defp deps do
     [
       {:websockex, "~> 0.4.0"},
+      {:jason, "~> 1.1"}
     ]
   end
 end

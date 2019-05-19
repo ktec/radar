@@ -34,3 +34,30 @@ $ mix run --no-halt
 [2018-01-01 16:01:10.543] BTC/USD 4 sell walls detected at 6450.00, 6500.00, 6550.00, 6600.00
 [2018-01-01 16:01:25.758] BTC/USD 4 buy walls detected at 6350.00, 6300.00, 6200.00, 6100.00
 ```
+
+### Binance Ticker Stream
+
+Partial Book Depth Streams
+Top <levels> bids and asks, pushed every second. Valid <levels> are 5, 10, or 20.
+
+Stream Name: <symbol>@depth<levels>
+
+Payload:
+
+```
+{
+  "lastUpdateId": 160,  // Last update ID
+  "bids": [             // Bids to be updated
+    [
+      "0.0024",         // Price level to be updated
+      "10"              // Quantity
+    ]
+  ],
+  "asks": [             // Asks to be updated
+    [
+      "0.0026",         // Price level to be updated
+      "100"            // Quantity
+    ]
+  ]
+}
+```
